@@ -8,5 +8,33 @@
         <script src="script/script.js"></script>  
     </head>
     <body>
+        <header id="header" class="content-wrapper">
+            <div id="site-name">
+                <h1 class="name">MediComm</h1>
+            </div> 
+            <div id="nurse">
+                <h2 class="nurse">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
+                        <circle cx="4.5" cy="4.5" r="4.5" fill="#E6F9E4"/>
+                    </svg>
+                Nurse</h2>
+            </div> 
+        </header>
+        <main>
+            <section id="langcontainer">
+                <div class="langswitch-container">
+                    <input type="radio" id="switchfrench" name="switchlang" value="French"/>
+                    <input type="radio" id="switchenglish" name="switchlang" value="English" checked="checked"/>
+                    <label for="switchfrench">FR</label>
+                    <label for="switchenglish">EN</label>
+                    <div class="langswitch-wrapper">
+                        <div class="langswitch">
+                            <div>FR</div>
+                            <div>EN</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
