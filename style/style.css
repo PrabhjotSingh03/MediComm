@@ -222,3 +222,37 @@ footer{
     position: fixed;
     width: 100%;
 }
+#startassessmentpatient{
+    padding-top: 25px;
+    text-align: center;
+}
+.startassessExpatient{
+    padding-bottom: 60px;
+}
+.startassessExpatient a{
+    color: var(--neutral-dark-darkest, #1F2024);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 15px 15px 15px 70px;
+    background-color: #E6F9E4;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.startassessNpatient a{
+    color: var(--neutral-dark-darkest, #1F2024);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 15px 15px 15px 100px;
+    background-color: #E6F9E4;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow{
+    padding-left: 60px;
+}
